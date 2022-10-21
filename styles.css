@@ -1,0 +1,277 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Makuta", sans-serif;  
+}
+
+
+/* HEADER / NAVBAR */
+
+
+
+
+/* CONTAINER 1 + WELKOM */
+
+
+.container-1{
+    background-color: #466cb9;
+    color: #EFEFEF;
+    padding: 300px 20% 50px;
+    
+}
+
+.titels{
+    margin-bottom: 100px;
+}
+
+.container-1 h1{
+    font-size: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-1 h3{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container-1 h5{
+    text-align: center;
+}
+
+
+/* CONTAINER 2 (UITLEG) */
+
+.container-2{
+    padding: 100px 20%;
+    background-color: lightgray;
+
+}
+
+
+/* PORTFOLIO */
+
+.portfolio{
+    padding: 100px 20%;
+}
+
+.portfolio-header{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.portfolio-text{
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* DIENSTEN / UITLEG */
+
+.diensten{
+    padding: 100px 20%;
+    background-color: #F6F6F6;
+}
+
+.card-header-html{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.card-text-html{
+    text-align: center;
+    font-style: italic;
+}
+
+.card-header-wordpress{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 150px;
+}
+
+.card-text-wordpress{
+    text-align: center;
+    font-style: italic;
+}
+
+.card{
+margin: 20px;
+border-radius: 30px;
+}
+
+.card-1{
+    background-color: #005461;
+    color: #fff;
+}
+
+.card-2{
+    background-color: #f5b220;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.card-cost{
+    font-size: 2rem;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
+
+.card-text{
+    font-style: italic;
+    padding-bottom: 30px;
+}
+
+.card-icons i{
+    padding-bottom: 30px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.card-body{
+    padding-left: 35px;
+    padding-bottom: 35px;
+}
+
+
+.button-1 {
+	display: flex;
+	height: 35px;
+	padding: 0;
+	background: #f5b220;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.button-1:hover{
+    background-color: #f5b220a7;
+}
+
+.button-text-1{
+	display: inline-flex;
+	align-items: center;
+	padding: 0 16px;
+	color: #fff;
+	height: 100%;
+}
+
+.tag-1{
+    text-decoration: none;
+    color: #005461;
+}
+
+.tag-1:hover{
+    text-decoration: none;
+    color: #005461;
+}
+
+.button-2 {
+	display: flex;
+	height: 35px;
+	padding: 0;
+	background: #005461;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.button-2:hover{
+    background-color: #005461b7;
+}
+
+.button-text-2{
+	display: inline-flex;
+	align-items: center;
+	padding: 0 16px;
+	color: #fff;
+	height: 100%;
+}
+
+.tag-2{
+    text-decoration: none;
+    color: #fff;
+}
+
+.tag-2:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* CONTACT */
+
+.contact{
+    padding: 100px 20%;
+}
+
+.contact-header{
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.contact-text{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 100px;
+
+}
+
+
+
+
+/* FAQ */
+
+.vragen{
+    padding: 100px 20%;
+    background-color: #2d4471;
+    color: #EFEFEF;
+}
+
+/* FOOTER */
+
+.footer{
+    padding: 100px 20%;
+    background-color: #2d4471;
+    color: #EFEFEF;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+footer ul li a:hover{
+    color: #FFC947;
+}
+
+.accordion-button{
+    background-color: #2d4471;
+    color: #EFEFEF;
+}
+
+.accordion-collapse{
+    background-color: #2d4471;
+    color: #EFEFEF;
+
+}
+
+
+.copy{
+    padding: 0px 20% 10px;
+    background-color: #2d4471;
+    color: #EFEFEF;
+    text-align: center;
+}
