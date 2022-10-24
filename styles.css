@@ -10,17 +10,105 @@
 
 /* HEADER / NAVBAR */
 
+.wrapper-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #2d4471;
+    clip-path: circle(60px at calc(100% - 68px) 62px);
+    transition: all 0.3s ease-in-out;
+    z-index: 0;
+}
 
+#active:checked ~ .wrapper-navbar{
+    clip-path: circle(75%);
+    z-index: 4;
+
+}
+
+.menu-btn{
+    position: fixed;
+    right: 40px;
+    top: 30px;
+    z-index: 5;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#active:checked ~ .menu-btn{
+    /* background-color: #fff;
+    color: #2d4471; */
+}
+
+#active:checked ~ .menu-btn i:before{
+    content: "\f00d";
+}
+
+.wrapper-navbar ul{
+    position: absolute;
+    top: 20%;
+    width: 20%;    
+    list-style: none;
+    text-align: center;
+    transform: translateY(-50%, -50%);
+    margin: 0 40%;
+    padding: 0;
+}
+
+.wrapper-navbar ul li{
+    margin: 15px 0;
+}
+
+.wrapper-navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 5px 50px;
+    line-height: 50px;
+    transition: all 0.3s ease;
+}
+
+.wrapper-navbar ul li a:after{
+    content: "";
+    position: absolute;
+    align-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+    left: 0;
+    /* top: 60px; */
+    transform: scaleY(0);
+    z-index: -1;
+    transition: transform 0.3s ease;
+}
+
+.wrapper-navbar ul li a:hover:after{
+transform: scaleY(1);
+}
+
+.wrapper-navbar ul li a:hover{
+    color: #2d4471;
+}
+
+input{
+    display: none;
+}
 
 
 /* CONTAINER 1 + WELKOM */
 
 
 .container-1{
-    background-color: #466cb9;
+    background-color: #2d4471;
     color: #EFEFEF;
     padding: 300px 20% 50px;
-    
 }
 
 .titels{
@@ -390,7 +478,15 @@ footer ul li a:hover{
 
 
 
-@media only screen and (min-device-width: 480px){
+@media only screen and (max-device-width: 481px){
+
+    .container-1{
+        background-color: #2d4471;
+        color: #EFEFEF;
+        padding: 300px 5% 50px;
+    }
+    
+
 
     .container-1 h1{
         font-size: calc(2vw + 1rem);
