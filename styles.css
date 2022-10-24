@@ -19,7 +19,7 @@
     background-color: #2d4471;
     clip-path: circle(60px at calc(100% - 68px) 62px);
     transition: all 0.3s ease-in-out;
-    z-index: 0;
+    z-index: 3;
 }
 
 #active:checked ~ .wrapper-navbar{
@@ -478,7 +478,7 @@ footer ul li a:hover{
 
 
 
-@media only screen and (max-device-width: 481px){
+@media screen and (max-device-width: 600px){
 
     .container-1{
         background-color: #2d4471;
