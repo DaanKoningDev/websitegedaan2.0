@@ -481,7 +481,7 @@ footer ul li a:hover{
 
 
 
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 480px){
 
     .container-1 h1{
         font-size: 0.5rem;
