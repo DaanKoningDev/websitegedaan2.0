@@ -92,7 +92,7 @@ transform: scaleY(1);
     color: #2d4471;
 }
 
-input{
+.header-input{
     display: none;
 }
 
@@ -282,8 +282,8 @@ input{
 }
 
 .card{
-margin: 20px;
-border-radius: 30px;
+    margin: 20px 0px;
+    border-radius: 30px;
 }
 
 .card-1{
@@ -489,9 +489,29 @@ footer ul li a:hover{
         text-transform: uppercase;
     }
     
+    .portfolio{
+        padding: 100px 5%;
+    }
 
+    .diensten{
+        padding: 100px 5%;
+    }
 
+    .card-header-html{
+        width: 100%;
+    }
 
+    .card-header-wordpress{
+        width: auto;
+    }
+
+    .contact{
+        padding: 100px 5%;
+    }
+
+    .vragen{
+        padding: 100px 5%;
+    }
 }
 
 
