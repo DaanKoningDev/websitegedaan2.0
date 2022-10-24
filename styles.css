@@ -476,13 +476,13 @@ footer ul li a:hover{
 @media screen and (max-device-width: 500px){
 
     .container-1 h1{
-        width: 100vh;
+        width: 15vh;
          /* text-align: center; */
         text-transform: uppercase;
     }
     
     .container-1 h3{
-        font-size: 0.5rem;
+        font-size: 2rem;
 
         /* font-size: 2rem; */
         text-align: center;
