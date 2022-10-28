@@ -113,7 +113,7 @@
 .brandtitle{
     background-color: #2d4471;
     color: #EFEFEF;
-    padding: 300px 0 50px;
+    padding: 200px 0 50px;
     text-align: center;
 
 }
@@ -559,7 +559,7 @@ justify-content: center;
     }
     
     .container-1 h3{
-        font-size: 3rem;
+        font-size: 2.5rem;
         text-align: center;
         text-transform: uppercase;
     }
