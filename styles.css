@@ -501,6 +501,10 @@ footer ul li a:hover{
 
 @media screen and (max-width: 576px) {
 
+    .container-1{
+        padding: 100px 5%;
+    }
+
     .container-1 h1{
         font-size: 0.5rem;
         text-align: center;
@@ -508,9 +512,16 @@ footer ul li a:hover{
     }
     
     .container-1 h3{
-        font-size: 2rem;
+        font-size: 3rem;
         text-align: center;
         text-transform: uppercase;
+    }
+
+    .titels{
+        margin-bottom: 150px;
+    }
+    .titels-uitleg h5{
+        font-size: 1.9rem;
     }
     
     .portfolio{
