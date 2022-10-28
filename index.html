@@ -515,18 +515,37 @@
     &copy; Websitegedaan.nl door Daan Koning
   </div>
 
-
-
-<!-- <div id="cookies">
-  <div class="cookie-container">
-    <div class="cookie-subcontainer">
-      <div class="cookies">
-        <p>Deze website gebruikt cookies voor een optimaal gebruik van uw bezoek. <a href="/cookies">Meer informatie.</a></p>
-        <button id="cookies-btn">Accepteren</button>
-      </div>
+<div class="cookie-wrapper">
+  <img src="images/cookie-gec30dcf14_1280.png" alt="cookie">
+  <div class="content">
+    <h5>Cookie Consent</h5>
+    <p>This website uses cookies to ensure you get the best experience on our website.</p>
+    <div class="buttons">
+      <button class="item">I understand</button>
+      <a href="#" class="item">Learn more</a>
     </div>
   </div>
-</div> -->
+</div>
+
+<script>
+
+  const cookieBox = document.querySelector(".cookie-wrapper");
+  acceptBtn = cookieBox.querySelector(".buttons button");
+
+  acceptBtn.onclick = function click(){
+    document.cookie = "CookieBy=Websitegedaan; max-age="+60*60*24*30;
+    if(document.cookie){
+      cookieBox.classList.add("hide")
+    }else{
+      alert("Cookie can't be set!");
+    }
+  }
+
+  let checkCookie = document.cookie.indexOf("CookieBy=Websitegedaan");
+  checkCookie !=-1 ? cookieBox.classList.add("hide"): cookieBox.classList.remove("hide");
+
+
+</script>
 
 
   <!-- SCRIPTS -->

@@ -539,61 +539,70 @@ justify-content: center;
 
 /* COOKIES */
 
-/* .cookie-container{
-    width: 100%;
-    margin: auto;
-}
-
-.cookie-subcontainer{
-    width: 85%;
-    margin: auto;
-}
-
-#cookies{
-    width: 100%;
+.cookie-wrapper{
     position: fixed;
-    bottom: 0;
-    color: #fff;
-    background-color: #000;
-    opacity: 0.9;
-    z-index: 6;
-    display: none;
+    bottom: 10px;
+    right: 30px;
+    background: #ffe483;
+    max-width: 575px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px 25px 30px 25px;
+    margin-left: 30px;
 }
 
-.cookies{
-    min-height: 70px;
+.cookie-wrapper.hide{
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s ease;
+}
+
+.cookie-wrapper img{
+    max-width: 90px;
+    padding-bottom: 10px;
+}
+
+.content h5{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content p{
+    color: #000;
+    margin: 5px 0 20px 0;
+}
+
+.content .buttons{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.cookies a{
-    color: #f5b220;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-#cookies-btn{
-    border-radius: 5px;
-    padding: 8px 12px;
-    font-size: 1rem;
-    font-family: inherit;
+    justify-content: center;
     cursor: pointer;
-    border: 3px solid #fff;
-    background-color: #2d4471;
-    color: #fff;
-    
 }
 
-@media screen and (max-width:990px) {
-    .cookies{
-        padding: 20px 0;
+.buttons .item{
+    margin: 0 10px;
+}
+
+.buttons button{
+    padding: 10px 20px;
+    background: #2d4471;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons a{
+    color: #2d4471;
+}
+
+@media screen and (max-width: 576px) {
+    .cookie-wrapper{
+        margin-left: 30px;
     }
-} */
-
-
+}
 
 
 @media screen and (max-width: 576px) {
