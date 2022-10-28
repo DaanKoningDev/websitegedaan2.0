@@ -440,6 +440,14 @@ justify-content: center;
     margin-bottom: 100px;
 }
 
+.contact i{
+    padding-right: 15px;
+}
+
+.wordpress-radiobutton{
+    padding-left: 24px;
+}
+
 
 /* FAQ */
 
