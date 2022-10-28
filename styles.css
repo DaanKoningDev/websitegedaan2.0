@@ -537,11 +537,61 @@ justify-content: center;
 }
 
 
+/* COOKIES */
 
+/* .cookie-container{
+    width: 100%;
+    margin: auto;
+}
 
+.cookie-subcontainer{
+    width: 85%;
+    margin: auto;
+}
 
+#cookies{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.9;
+    z-index: 6;
+    display: none;
+}
 
+.cookies{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
 
+.cookies a{
+    color: #f5b220;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#cookies-btn{
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    border: 3px solid #fff;
+    background-color: #2d4471;
+    color: #fff;
+    
+}
+
+@media screen and (max-width:990px) {
+    .cookies{
+        padding: 20px 0;
+    }
+} */
 
 
 
@@ -584,7 +634,7 @@ justify-content: center;
     }
 
     .card-header-wordpress{
-        width: auto;
+        padding-top: 100px;
     }
 
     .contact{
