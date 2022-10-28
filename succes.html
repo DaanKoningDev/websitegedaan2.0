@@ -17,35 +17,41 @@
         
 <!-- HEADER + NAVBAR -->
 
-<header>
-    <div class="brand"><a href="https://daankoningdev.github.io/websitegedaan1.0/">websitegedaan.nl</a></div>
-    <!-- <nav>
-        <ul>
-            <li><a href="https://daankoningdev.github.io/websitegedaan1.0/diensten">Diensten</a></li>
-            <li><a href="https://daankoningdev.github.io/websitegedaan1.0/portfolio">Portfolio</a></li>
-            <li><a href="https://daankoningdev.github.io/websitegedaan1.0/over">Over</a></li>
-            <li><a href="https://daankoningdev.github.io/websitegedaan1.0/contact">Contact</a></li>
-        </ul>
-    </nav>
-    HAMBURGER / MOBILE MENU
-    <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-          <ul class="mobile-menu">
-            <li id="top-mobile-bar"><a href="#diensten">Diensten</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#over">Over</a></li>
-            <li class="bottom-mobile-bar"><a href="#contact">Contact</a></li>
-          </ul> -->
-</header>
+<div class="navtop">
+    <img src="" alt=""><a href="/">LOGO</a> 
+</div>
+<div id="myNav" class="overlay">
+    <div class="navtop closebtn" onclick="closeNav()"><i
+                class="fa-solid fa-xmark"></i></div>
+    <div class="overlay-content">
+        <a href="#home" onclick="closeNav()">Home</a>
+        <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+        <a href="#diensten" onclick="closeNav()">HTML</a>
+        <a href="#wordpress" onclick="closeNav()">Wordpress</a>
+        <a href="#contact" onclick="closeNav()">Contact</a>
+        <a href="#vragen" onclick="closeNav()">FAQ</a>
+    </div>
+</div>
+
+<div class="hamburger" onclick="openNav()"><i class="fa-solid fa-bars fa"></i>
+</div>
 
 <div class="contact">
     <h1>Bedankt!</h1>
     <p>Wij zullen zo snel mogelijk reageren op jouw bericht!</p>
-    <a href="https://daankoningdev.github.io/websitegedaan1.0/#contact">Klik hier om terug te keren naar de pagina.</a>
+    <p>Wacht 10 seconden, dan keer je automatisch terug op de homepage van Websitegedaan.nl</p>
+    <a href="https://daankoningdev.github.io/websitegedaan2.0/contact">Of klik hier om terug te keren naar de pagina als je niet langer kan wachten!</a>
+    <br>
+
 </div>
 
+
+
+<script>
+    setTimeout(function(){
+       window.location.href = "https://daankoningdev.github.io/websitegedaan2.0/";
+    }, 10000);
+ </script>
 <script src="index.js" async defer></script>
 </body>
 </html>
