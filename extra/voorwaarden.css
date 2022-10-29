@@ -28,6 +28,11 @@
 
 
 
+@media screen and (max-width: 576px) {
+
+    .voorwaarden-pagina{
+        padding: 100px 5%;
+    }
 
 
 
