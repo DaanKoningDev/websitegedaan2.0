@@ -27,6 +27,11 @@
 }
 
 
+@media screen and (max-width: 576px) {
+
+    .privacy-pagina{
+        padding: 100px 5%;
+    }
 
 
 
