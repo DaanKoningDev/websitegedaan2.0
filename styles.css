@@ -151,11 +151,19 @@ justify-content: center;
     margin-bottom: 20px
 }
 
+.hr-container{
+    margin: 100px 0;
+}
+
+.container-uitleg{
+    font-size: small;
+}
+
 
 /* CONTAINER 2 (UITLEG) */
 
 /* .container-2{
-    padding: 100px 20%;
+    padding: 0 20% 50px;
     background-color: lightgray;
 } */
 
