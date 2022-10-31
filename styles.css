@@ -303,6 +303,16 @@ justify-content: center;
     text-align: center;
     font-style: italic;
 }
+.card-header-aanpassen{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 150px;
+}
+
+.card-text-aanpassen{
+    text-align: center;
+    font-style: italic;
+}
 
 .card{
     margin: 20px 0px;
@@ -436,8 +446,11 @@ justify-content: center;
     margin-bottom: 60px;
 }
 
+.aanpassen-radiobutton{
+    margin: 20px 0 10px 0; 
+}
 .extra-info-aanvragen{
-    margin: 20px 0 10px 0;
+    margin: 10px 0 10px 0;
 }
 
 .contact-info{

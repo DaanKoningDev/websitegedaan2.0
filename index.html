@@ -18,7 +18,7 @@
   <!-- HEADER + NAVBAR -->
 
   <div class="navtop">
-    <img src="" alt=""><a href="/websitegedaan2.0">LOGO</a> 
+    <img src="" alt=""><a href="/">LOGO</a> 
 </div>
 <div id="myNav" class="overlay">
     <div class="navtop closebtn" onclick="closeNav()"><i
@@ -28,6 +28,7 @@
         <a href="#portfolio" onclick="closeNav()">Portfolio</a>
         <a href="#diensten" onclick="closeNav()">HTML</a>
         <a href="#wordpress" onclick="closeNav()">Wordpress</a>
+        <a href="#aanpassen" onclick="closeNav()">Website aanpassen</a>
         <a href="#contact" onclick="closeNav()">Contact</a>
         <a href="#vragen" onclick="closeNav()">FAQ</a>
     </div>
@@ -147,7 +148,7 @@
   <section id="diensten" class="diensten">
     <div id="html">
       <h2 class="card-header-html">HTML5</h2>
-      <p class="card-text-wordpress">Onder HTML5 verstaan we de combinatie van HTML, CSS en JavaScript. *** verdere uitleg HTML (VS Wordpress?) ***</p>
+      <p class="card-text-html">Onder HTML5 verstaan we de combinatie van HTML, CSS en JavaScript. *** verdere uitleg HTML (VS Wordpress?) ***</p>
 
       <div class="row">
         <div class="col-lg-4 md-1">
@@ -293,6 +294,85 @@
         </div>
       </div>
     </div>
+
+    <div id="aanpassen">
+      <h2 class="card-header-aanpassen">Bestaande website aanpassen</h2>
+      <p class="card-text-aanpassen">Heb jij al een bestaande website en wil je deze aan laten passen? Bijvoorbeeld omdat de website te oud is, of omdat je er nieuwe content op wilt plaatsen? Dat kan natuurlijk ook bij Websitegedaan.nl</p>
+
+      <div class="row">
+        <div class="col-lg-4 md-1">
+          <div class="card card-1">
+            <div class="card-body">
+              <h5 class="card-title">HMTL5 aanpassen</h5>
+              <p class="card-cost">&euro; 1500</p>
+              <p class="card-text">
+                - Kenmerk 1 <br>
+                - Kenmerk 2 <br>
+                - Kenmerk 3 <br>
+                - Kenmerk 4 <br>
+                - Kenmerk 5 <br>
+              </p>
+              <p class="card-icons">
+                <i class="fa-solid fa-file-lines fa-xl"></i> 1-6 pagina's <br>
+                <i class="fa-solid fa-square-phone fa-xl"></i> Tussentijdse evaluatie <br>
+                <i class="fa-regular fa-calendar-days fa-xl"></i> 6-8 weken <br>
+              </p>
+              <button type="button" class="button-1">
+                <span class="button-text-1"> <a class="tag-1" href="#contact">Aanvragen</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 md-1">
+          <div class="card card-2">
+            <div class="card-body">
+              <h5 class="card-title">Wordpress aanpassen</h5>
+              <p class="card-cost">&euro; 300</p>
+              <p class="card-text">
+                - Kenmerk 1 <br>
+                - Kenmerk 2 <br>
+                - Kenmerk 3 <br>
+                - Kenmerk 4 <br>
+                - Kenmerk 5 <br>
+              </p>
+              <p class="card-icons">
+                <i class="fa-solid fa-file-lines fa-xl"></i> 7-12 pagina's <br>
+                <i class="fa-solid fa-square-phone fa-xl"></i> Tussentijdse evaluatie <br>
+                <i class="fa-regular fa-calendar-days fa-xl"></i> 8-12 weken <br>
+              </p>
+              <button type="button" class="button-2">
+                <span class="button-text-2"> <a class="tag-2" href="#contact">Aanvragen</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 md-1">
+          <div class="card card-1">
+            <div class="card-body">
+              <h5 class="card-title">Extra aanpassen</h5>
+              <p class="card-cost">&euro; op aanvraag</p>
+              <p class="card-text">
+                - Kenmerk 1 <br>
+                - Kenmerk 2 <br>
+                - Kenmerk 3 <br>
+                - Kenmerk 4 <br>
+                - Kenmerk 5 <br>
+              </p>
+              <p class="card-icons">
+                <i class="fa-solid fa-file-lines fa-xl"></i> 12+ pagina's <br>
+                <i class="fa-solid fa-square-phone fa-xl"></i> Tussentijdse evaluatie <br>
+                <i class="fa-regular fa-calendar-days fa-xl"></i> 12+ weken <br>
+              </p>
+              <button type="button" class="button-1">
+                <span class="button-text-1"> <a class="tag-1" href="#contact">Aanvragen</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
   </section>
 
 
@@ -350,6 +430,10 @@
               <input type="radio" id="extra-wordpress" name="fav_language" value="extra">
               <label for="extra-wordpress">Extra</label>
             </div>
+          </div>
+          <div class="aanpassen-radiobutton">
+            <input type="radio" id="aanpassen-aanvraag" name="fav_language" value="aanpassen-aanvraag">
+            <label for="aanpassen-aanvraag">Ik wil mijn website aan laten passen.</label><br>
           </div>
           <div class="extra-info-aanvragen">
             <input type="radio" id="meer-info" name="fav_language" value="meer-info">
@@ -491,10 +575,10 @@
         <div class="col-6">
           <h4>Handige Links</h4>
           <ul>
-            <li><a href="/websitegedaan2.0/voorwaarden.html">Algemene Voorwaarden</a></li>
-            <li><a href="/websitegedaan2.0/over.html">Over Ons</a></li>
-            <li><a href="/websitegedaan2.0/cookie.html">Cookiebeleid</a></li>
-            <li><a href="/websitegedaan2.0/privacy.html">Privacy Verklaring</a></li>
+            <li><a href="/voorwaarden.html">Algemene Voorwaarden</a></li>
+            <li><a href="/over.html">Over Ons</a></li>
+            <li><a href="/cookie.html">Cookiebeleid</a></li>
+            <li><a href="/privacy.html">Privacy Verklaring</a></li>
           </ul>
         </div>
         <div class="col-6">
