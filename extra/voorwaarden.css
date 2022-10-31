@@ -16,7 +16,7 @@
 }
 .voorwaarden-info{
     color: #fff;
-    margin:0 20%;
+    margin:0 20% 100px;
 }
 .voorwaarden-info h1{
     padding: 100px 0;
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 576px) {
   .voorwaarden-info{
-      margin:0 5%;
+    margin:0 5% 100px;
   }
 }
 
@@ -181,6 +181,10 @@
     height: 80px;
     line-height: 80px;
     }
+    .footer{
+      padding: 100px 5%;
+      }
+  
   }
   
 

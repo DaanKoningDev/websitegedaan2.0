@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif; 
 }
 
-/* Cookies.html */
+/* over.html */
 
 .over-pagina{
     background: #2d4471;
@@ -27,10 +27,22 @@
     padding: 30px 0;
 }
 
+.card{
+  margin: 100px 0;
+  color: #000;
+}
+
+.card-title-bio{
+  margin-top: 60px;
+}
+
+
 @media screen and (max-width: 576px) {
   .over-info{
       margin:0 5%;
   }
+
+
 }
 
 
@@ -181,6 +193,10 @@
     height: 80px;
     line-height: 80px;
     }
+      .footer{
+    padding: 100px 5%;
+    }
+
   }
   
 
