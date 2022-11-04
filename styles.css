@@ -171,7 +171,7 @@ justify-content: center;
 /* PORTFOLIO */
 
 .portfolio{
-    padding: 150px 20%;
+    padding: 150px 10%;
 }
 
 .portfolio .card{
@@ -287,11 +287,11 @@ justify-content: center;
 /* DIENSTEN / UITLEG */
 
 .diensten{
-    padding: 150px 20%;
+    padding: 150px 10%;
     background-color: #e9e9e9;
 }
 
-.card-header-html{
+/* .card-header-html{
     text-align: center;
     font-size: 3rem;
 }
@@ -310,14 +310,29 @@ justify-content: center;
 .card-text-wordpress{
     text-align: center;
     font-style: italic;
+} */
+.card-header-nieuw{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 50px;
 }
-.card-header-aanpassen{
+
+.card-text-nieuw{
+    text-align: center;
+    font-style: italic;
+}
+.nieuw-subheader{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.card-header-overige-services{
     text-align: center;
     font-size: 3rem;
     padding-top: 150px;
 }
 
-.card-text-aanpassen{
+.card-text-overige-services{
     text-align: center;
     font-style: italic;
 }
@@ -328,12 +343,12 @@ justify-content: center;
 }
 
 .card-1{
-    background-color: #005461;
+    background-color: #3282B8;
     color: #fff;
 }
 
 .card-2{
-    background-color: #f5b220;
+    background-color: #BBE1FA;
 }
 
 .card-title{
@@ -360,15 +375,14 @@ justify-content: center;
 }
 
 .card-body{
-    padding-left: 35px;
-    padding-bottom: 35px;
+    padding: 35px;
 }
 
 .button-1 {
 	display: flex;
 	height: 35px;
 	padding: 0;
-	background: #f5b220;
+	background: #e9e9e9;
 	border: none;
 	outline: none;
 	border-radius: 5px;
@@ -376,9 +390,9 @@ justify-content: center;
 	cursor: pointer;
 }
 
-.button-1:hover{
+/* .button-1:hover{
     background-color: #f5b220a7;
-}
+} */
 
 .button-text-1{
 	display: inline-flex;
@@ -390,19 +404,27 @@ justify-content: center;
 
 .tag-1{
     text-decoration: none;
-    color: #005461;
+    color: #000;
 }
 
 .tag-1:hover{
     text-decoration: none;
-    color: #005461;
+    color: #3282B8;
+}
+
+.nieuw-buttons{
+    padding-top: 50px;
+}
+
+.button-right{
+    float: right;
 }
 
 .button-2 {
 	display: flex;
 	height: 35px;
 	padding: 0;
-	background: #005461;
+	background: #3282B8;
 	border: none;
 	outline: none;
 	border-radius: 5px;
@@ -410,15 +432,11 @@ justify-content: center;
 	cursor: pointer;
 }
 
-.button-2:hover{
-    background-color: #005461b7;
-}
-
 .button-text-2{
 	display: inline-flex;
 	align-items: center;
 	padding: 0 16px;
-	color: #fff;
+	color: #000;
 	height: 100%;
 }
 
@@ -429,7 +447,46 @@ justify-content: center;
 
 .tag-2:hover{
     text-decoration: none;
+    color: #000;
+}
+
+
+/* .nieuw-box .accordion-item{
+    margin-bottom: 20px;
+} */
+
+.nieuw-box .accordion-button{
+    background-color: #3282B8;
     color: #fff;
+}
+
+.nieuw-box .accordion-collapse{
+    background-color: #005461;
+    color: #fff;
+}
+
+.nieuw-box .accordion-button:not(.collapsed){
+    color: inherit;
+    background: #3282B8;
+    color: #fff;
+}
+
+.nieuw-box .accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(100%);
+}
+
+.nieuw-box .accordion-button:focus{
+    box-shadow: inherit;
+}
+
+.nieuw-box .accordion-body{
+    background-color: #BBE1FA;
+    color: #000;
+}
+.nieuw-box h6{
+    padding: 40px 0 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* CONTACT */
@@ -469,10 +526,6 @@ justify-content: center;
     padding-right: 15px;
 }
 
-.wordpress-radiobutton{
-    padding-left: 24px;
-}
-
 
 /* FAQ */
 
@@ -488,35 +541,35 @@ justify-content: center;
     margin-bottom: 40px;
 }
 
-.accordion-item{
+.faq-box .accordion-item{
     margin-bottom: 20px;
 }
 
-.accordion-button{
+.faq-box .button-faq{
     background-color: #2d4471;
     color: #fff;
 }
 
-.accordion-collapse{
+.faq-box .accordion-collapse{
     background-color: #2d4471;
     color: #fff;
 }
 
-.accordion-button:not(.collapsed){
+.faq-box .accordion-button:not(.collapsed){
     color: inherit;
     background: #2d4471;
     color: #fff;
 }
 
-.accordion-button:not(.collapsed)::after{
+.faq-box .accordion-button:not(.collapsed)::after{
     filter: brightness(0%) invert(100%);
 }
 
-.accordion-button:focus{
+.faq-box .accordion-button:focus{
     box-shadow: inherit;
 }
 
-.accordion-body{
+.faq-box .accordion-body{
     background-color: #fff;
     color: #2d4471;
 }
@@ -532,7 +585,7 @@ justify-content: center;
 }
 
 .footer h4{
-    padding-bottom: 10px;
+    padding: 30px 0 0 0;
 }
 
 .footer ul{
@@ -624,11 +677,6 @@ justify-content: center;
     color: #2d4471;
 }
 
-/* @media screen and (max-width: 576px) {
-    .cookie-wrapper{
-        margin-left: 30px;
-    }
-} */
 
 
 @media screen and (max-width: 576px) {
@@ -664,15 +712,12 @@ justify-content: center;
         padding: 100px 5%;
     }
 
-    .card-header-html{
-        width: 100%;
+    .button-right{
+        margin-top: 20px;
+        float: left;
     }
 
-    .card-header-wordpress{
-        padding-top: 100px;
-    }
-
-    .card-header-aanpassen{
+    .card-header-overige-services{
         padding-top: 100px;
     }
 
@@ -695,6 +740,9 @@ justify-content: center;
 
     .footer{
         padding: 100px 5%;
+    }
+    .contact-links{
+        visibility: hidden;
     }
 }
 
