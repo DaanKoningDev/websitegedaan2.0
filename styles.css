@@ -713,8 +713,16 @@ justify-content: center;
     }
 
     .button-right{
-        margin-top: 20px;
-        float: left;
+        margin: 20px auto 0;
+        float: none;
+    }
+    
+    .button-left{
+        margin: 0px auto;
+    }
+
+    .button-overig{
+        margin: auto;
     }
 
     .card-header-overige-services{
@@ -740,9 +748,6 @@ justify-content: center;
 
     .footer{
         padding: 100px 5%;
-    }
-    .contact-links{
-        visibility: hidden;
     }
 }
 
