@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Lato:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;    
-    font-family: 'Poppins', sans-serif; 
+    font-family: 'Lato', sans-serif; 
 }
 
 /* over.html */
@@ -17,6 +17,7 @@
 .over-info{
     color: #fff;
     margin:0 20%;
+    text-align: center;
 }
 .over-info h1{
     padding: 100px 0;
