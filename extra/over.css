@@ -6,6 +6,16 @@
     box-sizing: border-box;    
     font-family: 'Lato', sans-serif; 
 }
+.navtop img{
+  height: 100px;
+  margin: auto;
+}
+@media screen and (max-width: 576px) {
+  .navtop img{
+      height: 60px;
+    }
+  
+}
 
 /* over.html */
 
@@ -17,7 +27,7 @@
 .over-info{
     color: #fff;
     margin:0 20%;
-    text-align: center;
+    /* text-align: center; */
 }
 .over-info h1{
     padding: 100px 0;
