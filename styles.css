@@ -573,7 +573,7 @@
     transition: 0.5s all;
     padding-left: 15px;
     padding-right: 15px;
-    width: 220px;
+    width: auto;
     color: #fff;
 }
 
