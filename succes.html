@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="nl">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Website Gedaan .nl</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="icon" type="image/x-icon" href="">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/2802cdc4b3.js" crossorigin="anonymous"></script>
-    </head>
 
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Website Gedaan .nl</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/2802cdc4b3.js" crossorigin="anonymous"></script>
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WR7J9ZGHKZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <body>
-        
-<!-- HEADER + NAVBAR -->
+  gtag('config', 'G-WR7J9ZGHKZ');
+</script>
 
-<div class="navtop">
-  <a href="/"><img src="images/Logo Daan.png" alt="logo websitegedaan"></a>
-</div>
-<div id="myNav" class="overlay">
-    <div class="navtop closebtn" onclick="closeNav()"><i
-                class="fa-solid fa-xmark"></i></div>
+<body>
+
+  <!-- HEADER + NAVBAR -->
+
+  <div class="navtop">
+    <a href="/"><img src="images/Logo Daan.png" alt="logo websitegedaan"></a>
+  </div>
+  <div id="myNav" class="overlay">
+    <div class="navtop closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></div>
     <div class="overlay-content">
-        <a href="#home" onclick="closeNav()">Home</a>
-        <a href="#portfolio" onclick="closeNav()">Portfolio</a>
-        <a href="#diensten" onclick="closeNav()">HTML</a>
-        <a href="#wordpress" onclick="closeNav()">Wordpress</a>
-        <a href="#contact" onclick="closeNav()">Contact</a>
-        <a href="#vragen" onclick="closeNav()">FAQ</a>
+      <a href="#home" onclick="closeNav()">Home</a>
+      <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+      <a href="#diensten" onclick="closeNav()">HTML</a>
+      <a href="#wordpress" onclick="closeNav()">Wordpress</a>
+      <a href="#contact" onclick="closeNav()">Contact</a>
+      <a href="#vragen" onclick="closeNav()">FAQ</a>
     </div>
-</div>
+  </div>
 
-<div class="hamburger" onclick="openNav()"><i class="fa-solid fa-bars fa"></i>
-</div>
+  <div class="hamburger" onclick="openNav()"><i class="fa-solid fa-bars fa"></i>
+  </div>
 
-<div class="contact">
+  <div class="contact">
     <h1>Bedankt!</h1>
     <p>Wij streven om binnen 1 week te reageren op jouw bericht!</p>
     <p>Wacht 10 seconden, dan keer je automatisch terug op de homepage van Websitegedaan.nl</p>
-    <a href="https://daankoningdev.github.io/websitegedaan2.0/contact">Of klik hier om terug te keren naar de pagina als je niet langer kan wachten!</a>
+    <a href="https://daankoningdev.github.io/websitegedaan2.0/contact">Of klik hier om terug te keren naar de pagina als
+      je niet langer kan wachten!</a>
     <br>
 
-</div>
+  </div>
 
 
 
-<footer class="footer">
+  <footer class="footer">
     <div class="links">
       <div class="row">
         <div class="col-lg-6 col-12">
@@ -86,11 +96,12 @@
 
 
 
-<script>
-    setTimeout(function(){
-       window.location.href = "https://daankoningdev.github.io/websitegedaan2.0/";
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://daankoningdev.github.io/websitegedaan2.0/";
     }, 10000);
- </script>
-<script src="index.js" async defer></script>
+  </script>
+  <script src="index.js" async defer></script>
 </body>
+
 </html>
