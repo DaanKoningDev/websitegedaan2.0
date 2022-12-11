@@ -79,11 +79,17 @@
   color: #f7f7f7;
 }
 
+/* copy */
+
 .copy{
   padding: 0px 20% 10px;
   background-color: #2d4471;
   color: #EFEFEF;
   text-align: center;
+}
+.copy-img{
+  width: 100px;
+  padding-bottom: 20px;
 }
 
 

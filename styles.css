@@ -471,6 +471,11 @@
     margin-bottom: 60px;
 }
 
+.adres-logo{
+    height: 150px;
+    padding-bottom: 30px;
+}
+
 .aanpassen-radiobutton{
     margin: 20px 0 10px 0; 
 }
@@ -668,6 +673,20 @@
 }
 
 
+/* copy */
+
+.copy{
+    padding: 0px 20% 10px;
+    background-color: #2d4471;
+    color: #EFEFEF;
+    text-align: center;
+}
+.copy-img{
+    width: 100px;
+    padding-bottom: 20px;
+}
+
+
 
 /* FAQ */
 
@@ -752,13 +771,6 @@
 .footer-hide{
     visibility: hidden;
 }
-.copy{
-    padding: 0px 20% 10px;
-    background-color: #2d4471;
-    color: #EFEFEF;
-    text-align: center;
-}
-
 
 /* COOKIES */
 
@@ -902,6 +914,10 @@
 
     .contact-header{
         font-size: 2.5rem;
+    }
+
+    .adres-logo{
+        margin-top: 100px;
     }
 
     .vragen{
