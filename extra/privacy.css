@@ -91,6 +91,11 @@
   width: 100px;
   padding-bottom: 20px;
 }
+.footer-img-col{
+  width: 120px;
+  padding: 30px 0;
+  margin-left: 50px;
+ }
 
 
 
@@ -198,7 +203,14 @@
     .footer{
       padding: 100px 5%;
       }
-  
+      .footer-img-col{
+        display: none;
+      }
+    }
+    
+  /* FULL SCREEN */
+    @media screen and (min-width: 576px) {
+  .copy-img{
+    display: none;
   }
-  
-
+    }
