@@ -170,11 +170,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-@media screen and (min-width: 576px) {
-    .container-1-mobile {
-        display: none;
-    }
-}
 
 .brandtitle {
     background-color: #2d4471;
@@ -891,9 +886,9 @@
         top: -80px;
     }
 
-    .container-1-web {
+    /* .container-1-web {
         display: none;
-    }
+    } */
 
     .container-1 {
         padding: 200px 5% 50px;
